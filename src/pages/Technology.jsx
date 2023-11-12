@@ -6,8 +6,8 @@ const Technology = () => {
 
   return (
     <main
-      className=" min-h-screen bg-[url('/assets/technology/background-technology-mobile.jpg')]   bg-cover
-  sm:bg-[url('/assets/technology/background-technology-tablet.jpg')] lg:bg-[url('/assets/technology/background-technology-desktop.jpg')] transition-all duration-300 grid place-items-center"
+      className=" min-h-screen bg-[url('/technology/background-technology-mobile.jpg')]   bg-cover
+  sm:bg-[url('/technology/background-technology-tablet.jpg')] lg:bg-[url('/technology/background-technology-desktop.jpg')] transition-all duration-300 grid place-items-center"
     >
       <section className="grid gap-3 sm:w-full transition-all mt-10 lg:grid-cols-[auto,1fr] lg:grid-rows-[auto,1fr]">
         <div className="flex gap-4  text-[#CCCC] uppercase tracking-widest text-lg   sm:text-lg pl-3  transition-all lg:row-start-1 lg:col-start-1 lg:text-3xl lg:mb-20 place-self-center w-full sm:px-8 sm:mb-3 lg:px-36">
