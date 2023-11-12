@@ -34,7 +34,7 @@ const NavBar = () => {
           >
             <IconX size={30} className="text-secondary" />
           </button>
-          <div className="w-full h- flex flex-col justify-center gap-5 pb-60 sm:pb-0 px-8 transition-all sm:flex-row lg:gap-16  lg:px-4 z-50 ">
+          <div className="w-full h- flex flex-col justify-center gap-5 pb-60 sm:pb-0 px-8 transition-all sm:flex-row lg:gap-16  lg:px-4 z-50 h-full">
             <Link
               onClick={() => {
                 setIsMenuShow(false);
@@ -42,7 +42,7 @@ const NavBar = () => {
               }}
               to={"/"}
               className={` ${
-                pageShow === 1 ? "border-b-2" : ""
+                pageShow === 1 && "sm:border-b-2"
               } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-6 `}
             >
               <span className="font-bold sm:hidden lg:inline-block transition-all">
@@ -57,7 +57,7 @@ const NavBar = () => {
               }}
               to={"/destination"}
               className={` ${
-                pageShow === 2 ? "border-b-2" : ""
+                pageShow === 2 && "sm:border-b-2"
               } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-6 `}
             >
               <span className="font-bold sm:hidden lg:inline-block transition-all">
@@ -72,7 +72,7 @@ const NavBar = () => {
               }}
               to={"/crew"}
               className={` ${
-                pageShow === 3 ? "border-b-2" : ""
+                pageShow === 3 && "sm:border-b-2"
               } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-6 `}
             >
               <span className="font-bold sm:hidden lg:inline-block transition-all">
@@ -87,7 +87,7 @@ const NavBar = () => {
               }}
               to={"/technology"}
               className={` ${
-                pageShow === 4 ? "border-b-2" : ""
+                pageShow === 4 && "sm:border-b-2"
               } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-6  `}
             >
               <span className="font-bold sm:hidden lg:inline-block transition-all">

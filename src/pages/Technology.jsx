@@ -10,7 +10,7 @@ const Technology = () => {
   sm:bg-[url('/background-technology-tablet.jpg')] lg:bg-[url('/background-technology-desktop.jpg')] transition-all duration-300 grid place-items-center"
     >
       <section className="grid gap-3 sm:w-full transition-all mt-10 lg:grid-cols-[auto,1fr] lg:grid-rows-[auto,1fr]">
-        <div className="flex gap-4  text-[#CCCC] uppercase tracking-widest text-lg   sm:text-lg pl-3  transition-all lg:row-start-1 lg:col-start-1 lg:text-3xl lg:mb-20 place-self-center w-full sm:px-8 sm:mb-3 lg:px-36">
+        <div className="flex gap-4  text-[#CCCC] uppercase tracking-widest text-lg   sm:text-lg pl-3  transition-all lg:row-start-1 lg:col-start-1 lg:text-3xl lg:mb-20 place-self-center sm:place-self-start sm:px-8 sm:mb-3 lg:px-36">
           <span className="font-barlowCondensed font-bold ">03</span>
           <h3 className="font-barlowCondensed text-white">Space Launch 101</h3>
         </div>
