@@ -1,23 +1,16 @@
-import { useState } from "react";
+import "animate.css";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import Crew from "./pages/Crew";
 import Destination from "./pages/Destination";
 import Home from "./pages/Home";
 import Technology from "./pages/Technology";
-import "animate.css";
 
 function App() {
-  const [counter, setCounter] = useState(0);
-
-  setTimeout(() => {
-    if (counter < 3) setCounter(counter + 1);
-  }, 1000);
-
   return (
     <main className="">
-      <Header />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination" element={<Destination />} />

@@ -14,7 +14,7 @@ const CrewLayout = ({
         <img
           className="animate__animated animate__fadeIn w-[177.123px] sm:w-[220px] lg:w-[400px]  transition-all lg:absolute lg:bottom-0 lg:right-36 md:hover:grayscale duration-500 lg:hover:-translate-y-4 lg:hover:scale-105"
           src={imgCrew}
-          alt=""
+          alt="crew space tourism"
         />
       </section>
 

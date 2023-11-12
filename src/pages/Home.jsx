@@ -24,12 +24,9 @@ const Home = () => {
             world experience!
           </p>
         </section>
-        <Link
-          to={"/destination"}
-          className="h-32 w-32 sm:h-40 sm:w-40  sm:text-xl  border shadow-lg hover:bg-slate-200  hover:border-slate-200 transition-all flex justify-center items-center bg-white hover:scale-110 hover:-translate-y-2 text-lg mx-auto uppercase font-bellefair  rounded-[50%] text-[#0B0D17]  md:w-[200px] md:h-[200px] lg:h-[240px] lg:w-[240px] md:text-2xl  "
-        >
+        <span className="h-32 w-32 sm:h-40 sm:w-40  sm:text-xl  border shadow-lg hover:bg-slate-200  hover:border-slate-200 transition-all flex justify-center items-center bg-white hover:scale-110 hover:-translate-y-2 text-lg mx-auto uppercase font-bellefair  rounded-[50%] text-[#0B0D17]  md:w-[200px] md:h-[200px] lg:h-[240px] lg:w-[240px] md:text-2xl  ">
           Explore
-        </Link>
+        </span>
       </section>
     </main>
   );
