@@ -10,7 +10,7 @@ const CrewLayout = ({
 }) => {
   return (
     <>
-      <section className="border-b  sm:border-none border-opacity-20 border-white w-full flex justify-center sm:row-start-3 sm:absolute sm:bottom-0 sm:left-1/2 sm:-translate-x-1/2 transition-all  lg:row-start-2 lg:col-start-2 ">
+      <section className="h-[242px]  border-b  sm:border-none border-opacity-20 border-white w-full flex justify-center sm:row-start-3 sm:absolute sm:bottom-0 sm:left-1/2 sm:-translate-x-1/2 transition-all  lg:row-start-2 lg:col-start-2 ">
         <img
           className="animate__animated animate__fadeIn w-[177.123px] sm:w-[220px] lg:w-[400px]  transition-all lg:absolute lg:bottom-0 lg:right-36 md:hover:grayscale duration-500 lg:hover:-translate-y-4 lg:hover:scale-105"
           src={imgCrew}
@@ -62,7 +62,7 @@ const CrewLayout = ({
               }}
             />
           </h2>
-          <p className="font-barlow text-[15px]  text-secondary mt-5 leading-6  sm:px-28 transition-all lg:text-left lg:pl-0  lg:text-[18px] h-[96px]">
+          <p className="font-barlow text-[15px]  text-secondary  leading-6  sm:px-28 transition-all lg:text-left lg:pl-0  lg:text-[18px] h-[96px] ">
             {description}
           </p>
         </div>
