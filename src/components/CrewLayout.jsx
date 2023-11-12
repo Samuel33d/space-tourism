@@ -22,25 +22,25 @@ const CrewLayout = ({
         <div className="flex gap-4 justify-center sm:row-start-2 transition-all">
           <button
             onClick={() => setPageShow(1)}
-            className={`h-3 w-3  rounded-full hover:bg-white transition-all ${
+            className={`h-3 w-3  rounded-full hover:bg-white transition-all md:z-50 ${
               pageShow === 1 ? "bg-white cursor-default" : "bg-gray-500"
             }`}
           ></button>
           <button
             onClick={() => setPageShow(2)}
-            className={`h-3 w-3 rounded-full hover:bg-white transition-all ${
+            className={`h-3 w-3 rounded-full hover:bg-white transition-all md:z-50 ${
               pageShow === 2 ? "bg-white cursor-default" : "bg-gray-500"
             }`}
           ></button>
           <button
             onClick={() => setPageShow(3)}
-            className={`h-3 w-3 rounded-full hover:bg-white transition-all ${
+            className={`h-3 w-3 rounded-full hover:bg-white transition-all md:z-50 ${
               pageShow === 3 ? "bg-white cursor-default" : "bg-gray-500"
             }`}
           ></button>
           <button
             onClick={() => setPageShow(4)}
-            className={`h-3 w-3 rounded-full hover:bg-white transition-all ${
+            className={`h-3 w-3 rounded-full hover:bg-white transition-all md:z-50 ${
               pageShow === 4 ? "bg-white cursor-default" : "bg-gray-500"
             }`}
           ></button>
@@ -51,7 +51,7 @@ const CrewLayout = ({
             {role}
           </h3>
           <h2
-            className={`text-2xl uppercase text-white sm:text-4xl transition-all lg:text-6xl h-[65px] ${
+            className={`text-2xl uppercase text-white sm:text-4xl transition-all lg:text-6xl h-[65px] md:z-50 ${
               name.length > 15 && "lg:text-5xl"
             }`}
           >
