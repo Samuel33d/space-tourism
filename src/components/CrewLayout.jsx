@@ -46,7 +46,7 @@ const CrewLayout = ({
           ></button>
         </div>
 
-        <div className="grid place-items-center text-center font-bellefair transition-all  lg:place-items-start lg:w-[60%] z-50">
+        <div className="grid place-items-center text-center font-bellefair transition-all  lg:place-items-start lg:w-[60%] ">
           <h3 className="text-lg sm:text-xl text-[#CCCC] uppercase transition-all lg:text-3xl lg:mb-2  animate__animated animate__fadeIn">
             {role}
           </h3>

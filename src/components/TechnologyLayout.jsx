@@ -18,7 +18,7 @@ const TechnologyLayout = ({
           alt=""
         />
       </section>
-      <section className="flex flex-col mt-5 transition-all lg:flex-row lg:gap-2 lg:row-start-2 lg:col-start-1 z-50 lg:px-2 xl:px-32 xl:gap-10 ">
+      <section className="flex flex-col mt-5 transition-all lg:flex-row lg:gap-2 lg:row-start-2 lg:col-start-1  lg:px-2 xl:px-32 xl:gap-10 ">
         <div className="flex justify-center gap-3 text-white text-sm lg:flex-col lg:gap-8">
           <button
             className={` ${
@@ -62,7 +62,7 @@ const TechnologyLayout = ({
               }}
             />
           </h2>
-          <p className="text-center  text-secondary font-barlow leading-6 text-sm mt-5 transition-all px-4 max-w-[400px] sm:max-w-[495px] sm:mt-3 sm:px-5 lg:text-left lg:px-0 lg:text-base lg:h-[120px]">
+          <p className="text-center  text-secondary font-barlow leading-6 text-sm mt-5 transition-all px-4 max-w-[400px] sm:max-w-[495px] sm:mt-3 sm:px-5 lg:text-left lg:px-0 lg:text-base h-[120px]">
             {techDescription}
           </p>
         </div>
