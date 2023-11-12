@@ -6,8 +6,8 @@ const Crew = () => {
 
   return (
     <main
-      className=" h-screen bg-[url('assets/crew/background-crew-mobile.jpg')]   bg-cover
-      sm:bg-[url('assets/crew/background-crew-tablet.jpg')] lg:bg-[url('assets/crew/background-crew-desktop.jpg')] grid place-items-center sm:bg-bottom transition-all duration-300"
+      className=" h-screen bg-[url('/assets/crew/background-crew-mobile.jpg')]   bg-cover
+      sm:bg-[url('/assets/crew/background-crew-tablet.jpg')] lg:bg-[url('/assets/crew/background-crew-desktop.jpg')] grid place-items-center sm:bg-bottom transition-all duration-300"
     >
       <section className="grid grid-rows-fit place-items-center gap-8 px-3 sm:mb-60 lg:grid-cols-1 lg:mb-0  lg:max-w-[1200px] ">
         <div className="flex gap-4  text-[#CCCC] uppercase tracking-widest text-lg sm:place-self-start sm:text-xl pl-3  transition-all lg:row-start-1 lg:col-start-1 lg:text-3xl lg:mb-20">
