@@ -1,7 +1,6 @@
 import "animate.css";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import NavBar from "./components/NavBar";
 import Crew from "./pages/Crew";
 import Destination from "./pages/Destination";
 import Home from "./pages/Home";
@@ -9,8 +8,7 @@ import Technology from "./pages/Technology";
 
 function App() {
   return (
-    <main className="">
-      <NavBar />
+    <main>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination" element={<Destination />} />
