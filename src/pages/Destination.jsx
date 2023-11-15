@@ -1,10 +1,13 @@
 import { useState } from "react";
 import DestinationLayout from "../components/DestinationLayout";
+import NavBar from "../components/NavBar";
 
 const Destination = () => {
   const [pageShow, setPageShow] = useState(1);
 
   return (
+    <>
+          <NavBar />
     <main
       className="animate__animated animate__fadeIn min-h-screen bg-[url('/assets/destination/background-destination-mobile.jpg')]   bg-cover
     sm:bg-[url('/assets/destination/background-destination-tablet.jpg')] lg:bg-[url('/assets/destination/background-destination-desktop.jpg')] transition-all duration-300 grid place-items-center "
@@ -62,6 +65,7 @@ const Destination = () => {
         />
       )}
     </main>
+    </>
   );
 };
 export default Destination;
