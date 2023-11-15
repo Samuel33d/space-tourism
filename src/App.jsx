@@ -5,10 +5,12 @@ import Crew from "./pages/Crew";
 import Destination from "./pages/Destination";
 import Home from "./pages/Home";
 import Technology from "./pages/Technology";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <main>
+    <main className="min-h-screen">
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination" element={<Destination />} />

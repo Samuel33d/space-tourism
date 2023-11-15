@@ -22,9 +22,9 @@ const NavBar = () => {
         <LogoIcon />
       </Link>
       <nav>
-        <div className="hidden fixed xl:block left-40 top-[5.4rem] border-b  opacity-20 transition-all z-50 w-[37%] "></div>
+        <div className="hidden fixed xl:block left-40 top-[5.7rem] border-b  opacity-20 transition-all z-50 w-[35%] "></div>
         <div
-          className={`h-full fixed lg:static backdrop-blur-xl top-0 transition-all z-50  duration-300 w-[67%] bg-white/5 sm:right-0 sm:w-fit sm:h-fit  lg:w-full  lg:px-20 rounded-l-lg  ${
+          className={`h-full fixed lg:static backdrop-blur-xl top-0 transition-all z-50  duration-300 w-[67%] bg-white/5 sm:right-0 sm:w-fit sm:h-fit  lg:w-full  lg:px-20  rounded-l-lg ${
             isMenuShow ? "right-0 " : "-right-full "
           }`}
         >
@@ -34,7 +34,7 @@ const NavBar = () => {
           >
             <IconX size={30} className="text-secondary" />
           </button>
-          <div className="w-full h- flex flex-col justify-center gap-5 pb-60 sm:pb-0 px-8 transition-all sm:flex-row lg:gap-16  lg:px-4 z-50 h-full">
+          <div className="w-full h- flex flex-col justify-center gap-5 pb-60 sm:pb-0 px-8 transition-all sm:flex-row lg:gap-16  lg:px-4 z-50 h-full  lg:pr-10">
             <Link
               onClick={() => {
                 setIsMenuShow(false);
@@ -43,7 +43,7 @@ const NavBar = () => {
               to={"/"}
               className={` ${
                 pageShow === 1 && "sm:border-b-2"
-              } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-6 `}
+              } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-7 lg:py-9  `}
             >
               <span className="font-bold sm:hidden lg:inline-block transition-all">
                 00
@@ -58,7 +58,7 @@ const NavBar = () => {
               to={"/destination"}
               className={` ${
                 pageShow === 2 && "sm:border-b-2"
-              } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-6 `}
+              } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-7 lg:py-9 `}
             >
               <span className="font-bold sm:hidden lg:inline-block transition-all">
                 01
@@ -73,7 +73,7 @@ const NavBar = () => {
               to={"/crew"}
               className={` ${
                 pageShow === 3 && "sm:border-b-2"
-              } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-6 `}
+              } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-7 lg:py-9 `}
             >
               <span className="font-bold sm:hidden lg:inline-block transition-all">
                 02
@@ -88,7 +88,7 @@ const NavBar = () => {
               to={"/technology"}
               className={` ${
                 pageShow === 4 && "sm:border-b-2"
-              } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-6  `}
+              } flex gap-3 uppercase font-barlowCondensed text-white font tracking-widest text-lg font-light sm:py-7 lg:py-9  `}
             >
               <span className="font-bold sm:hidden lg:inline-block transition-all">
                 03
